@@ -2,6 +2,12 @@
 
 PyMOL-MCP connects PyMOL to Claude AI through the Model Context Protocol (MCP), enabling Claude to directly interact with and control PyMOL. This powerful integration allows for conversational structural biology, molecular visualization, and analysis through natural language.
 
+
+
+https://github.com/user-attachments/assets/687f43dc-d45e-477e-ac2b-7438e175cb36
+
+
+
 ## Features
 
 - **Two-way communication**: Connect Claude AI to PyMOL through a socket-based server
