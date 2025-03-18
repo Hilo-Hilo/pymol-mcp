@@ -96,24 +96,24 @@ Socket Server for MCP Integration</string>
        </property>
       </widget>
      </item>
-     <item>
+     <!-- <item>
       <widget class="QPushButton" name="button_show_commands">
        <property name="text">
         <string notr="true">Show Commands</string>
        </property>
       </widget>
-     </item>
+     </item> -->
     </layout>
    </item>
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout_2">
-     <item>
+     <!-- <item>
       <widget class="QPushButton" name="button_clear_commands">
        <property name="text">
         <string notr="true">Clear Commands</string>
        </property>
       </widget>
-     </item>
+     </item> -->
      <item>
       <widget class="QPushButton" name="button_close">
        <property name="text">

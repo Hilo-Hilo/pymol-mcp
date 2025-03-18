@@ -29,7 +29,7 @@ def __init_plugin__(app=None):
     Add an entry to the PyMOL "Plugin" menu
     '''
     from pymol.plugins import addmenuitemqt
-    addmenuitemqt('MCP Socket Plugin', run_plugin_gui)
+    addmenuitemqt('PyMol MCP Socket Plugin', run_plugin_gui)
 
 class SocketServer:
     def __init__(self, host='localhost', port=9876):
@@ -283,8 +283,8 @@ def make_dialog():
     
     # Hook up button callbacks
     form.button_toggle_listening.clicked.connect(toggle_listening)
-    form.button_show_commands.clicked.connect(show_commands)
-    form.button_clear_commands.clicked.connect(clear_commands)
+    # form.button_show_commands.clicked.connect(show_commands)
+    # form.button_clear_commands.clicked.connect(clear_commands)
     form.button_close.clicked.connect(close_dialog)
     
     return dialog
