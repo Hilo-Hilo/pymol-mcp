@@ -156,6 +156,7 @@ Here are some examples of what you can ask Claude to do:
 - The socket connection requires both PyMOL and Claude to be running on the same machine
 - Some complex operations may need to be broken down into simpler steps
 - Always save your work before using experimental features
+- Join our Bio-MCP Community to troubleshoot, provide feedback & improve Bio-MCPS! https://join.slack.com/t/bio-mcpslack/shared_invite/zt-31z4pho39-K5tb6sZ1hUvrFyoPmKihAA
 
 ## Contributing
 
