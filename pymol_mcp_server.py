@@ -1065,7 +1065,7 @@ async def server_lifespan(server: FastMCP) -> AsyncIterator[dict]:
         logger.info("PyMOL MCP server shut down.")
 
 mcp = FastMCP("PyMOLMCPServer",
-              description="PyMOL integration with advanced command parsing",
+              instructions="PyMOL integration with advanced command parsing",
               lifespan=server_lifespan)
 
 ##############################################################################
