@@ -49,35 +49,20 @@ git clone https://github.com/vrtejus/pymol-mcp
 cd pymol-mcp
 ```
 
-### Step 3: Set Up the Environment
+### Step 3: Install Dependencies
 
-Create and activate a Python virtual environment:
-
-```bash
-python -m venv venv
-```
-
-**On macOS/Linux:**
+Install all dependencies using uv (this will automatically create a virtual environment):
 
 ```bash
-source venv/bin/activate
+uv sync
 ```
 
-**On Windows:**
+This command will:
+- Automatically create a `.venv` virtual environment
+- Install all dependencies with exact versions from `uv.lock`
+- Set up the project for development
 
-```bash
-venv\Scripts\activate
-```
-
-### Step 4: Install Dependencies
-
-With the virtual environment activated:
-
-```bash
-pip install mcp
-```
-
-### Step 5: Configure Claude Desktop
+### Step 4: Configure Claude Desktop
 
 1. Open Claude Desktop
 2. Go to Claude > Settings > Developer > Edit Config
@@ -110,7 +95,7 @@ For example:
 
 > **Note:** Use the actual full paths on your system. On Windows, use forward slashes (/) instead of backslashes.
 
-### Step 6: Install the PyMOL Plugin
+### Step 5: Install the PyMOL Plugin
 
 1. Open PyMOL
 2. Go to Plugin → Plugin Manager
